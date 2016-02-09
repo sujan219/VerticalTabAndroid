@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape android:shape="rectangle" >
+            <!-- <solid android:color="@android:color/darker_gray" /> 
+            start: BFC0C4
+            middle:CBCFD0
+            end DCDDE1-->
+            <gradient
+                android:angle="0"
+                android:centerY="0.95"
+                android:endColor="#BFC0C4"
+                android:centerColor="#DCDDE1"
+                android:startColor="#DCDDE1"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item android:right="@dimen/vertical_tab_border_width">
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/week_view_tab_background" />
+        </shape>
+    </item>
+
+</layer-list>

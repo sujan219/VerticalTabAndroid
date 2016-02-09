@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/week_view_tab_background"
+    android:paddingLeft="20dp" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/vertical_tab_list_view"
+            android:layout_width="@dimen/vertical_tab_width"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:background="@drawable/vertical_tab_normal_background"
+            android:divider="@null" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/vertical_tab_content"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/week_view_tab_content_background" />
+    </TableRow>
+
+</TableLayout>

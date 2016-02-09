@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/vertical_tab_width"
+    android:layout_height="wrap_content"
+    android:background="@drawable/vertical_tab_normal_background">
+    
+    <TextView android:layout_width="@dimen/vertical_tab_width"
+        android:layout_height="@dimen/vertical_tab_height"
+        android:id="@+id/verticalTabText"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="test"/>
+
+</LinearLayout>
